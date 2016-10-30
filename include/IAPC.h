@@ -9,7 +9,18 @@
 #define IAPC_IAPC_h_
 
 namespace iapc {
-
+    // Step1: How to use iapc. What's iapc look like.
+    // APIManager : Some common APIs
+    
+    // Producer: How to regist a service
+    
+    // Consumer: How to call a service
+    
+    class IAPC {
+    public:
+        IAPC() {};
+        virtual ~IAPC();
+    };
 }
 
 #endif /* IAPC_IAPC_h_ */
